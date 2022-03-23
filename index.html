@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>msPre - компонент для управления ресурсами и товарами на CMS ModX</title>
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700&display=swap" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="css/bootstrap.css?v=1">
+    <link rel="stylesheet" href="css/main.css?v=1">
+</head>
+<body>
+
+<div class="container-xxl ">
+    <div class="sidebar-fixed">
+        <div class="elements-nav mt-4 mb-4" style="text-align: center">
+            <a title="Интернет-магазин светильников и люстр Fandeco. Fandeco.ru" href="index.html" class="elem elem_logo">
+                <img src="images/logo.png" class="mobile" alt=""><br>
+                <span class="m-2">msPre - компонент Modx</span>
+            </a>
+        </div>
+
+        <div class="sidebar-content">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#desc">Описание</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#functions">Возможности</a>
+
+                    <ul class="nav flex-column" style="margin-left: 20px; font-size: 12px">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#functions-manual">- Управление</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#functions-filter">- Фильтрация</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#buy">Купить</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " target="_blank" href="https://docs.modx.pro/komponentyi/mspre">Документация</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class=" content">
+        <div class="content-wrapper">
+
+            <!-- Описание -->
+            <div class="elements-block" id="desc">
+                <h2>Описание</h2>
+                <p>Компонент предназначен для массового управление ресурсами/товарами для MODX revolution, поддерживаемые версии начиная с 2.3 и до 3-й версии modx включительно. Через компонент можно
+                    управлять тысячами ресурсов одновремено.
+                </p>
+                <p>Легко выдерживает большое количество товаров за счет пакетной обработки.</p>
+                <div class="macbook_screen">
+                    <div class="macbook_screen_comp">
+                        <div class="macbook_screen_bg">
+                            <img src="images/pirctures/screen_2.png" class="macbook_screen_desktop" alt="">
+                        </div>
+                    </div>
+                </div>
+                <h3>Требования</h3>
+                <ul>
+                    <li>Modx Revolution <b>2x/3x</b></li>
+                    <li>PHP 5.4+</li>
+                </ul>
+            </div>
+
+            <!-- Функции -->
+            <div class="elements-block" id="functions" style="border-bottom: 0; margin-bottom: 0px">
+                <div class="row">
+                    <h2>Возможности</h2>
+                    <p>Основные возможности компонента это фильтрация и массовое управление товарами и ресурсами </p>
+                </div>
+            </div>
+
+            <div class="elements-block" id="functions-manual">
+                <div class="row">
+
+                    <div>
+                        <h3>Управление</h3>
+                    </div>
+
+
+                    <!-- Управление большим объемом товаров -->
+                    <div class="functions_block col-6">
+                        <h5>Управление большим объемом товаров</h5>
+                        <div class="functions_text">Можно установить значение сразу для всех отмеченных товаров или для всех товаров указанных на странице</div>
+                        <div class="functions_img">
+                            <a href="images/functions/cheched_all.png" data-fancybox="functions">
+                                <img src="images/functions/cheched_all.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- Управление большим объемом товаров -->
+                    <div class="functions_block col-6">
+                        <h5>Дерево ресурсов</h5>
+                        <div class="functions_text">Быстрая навигация по всем категориям и фильтрация товаров</div>
+                        <div class="functions_img">
+                            <a href="images/functions/tree.png" title="Быстрая навигация по всем категориям и фильтрация товаров" data-fancybox="functions">
+                                <img src="images/functions/tree.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- Увеличение изображений -->
+                    <div class="functions_block col-6">
+                        <h5>Увеличение изображений</h5>
+                        <div class="functions_text">Удобное переключение между миниатюрами размеров 40x40 к размеру 120x90</div>
+                        <div class="functions_img">
+                            <a href="images/functions/zoom.png" title="Увеличение изображений" data-fancybox="functions">
+                                <img src="images/functions/zoom.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Управление модификациями msOptionsPrice2 -->
+                    <div class="functions_block col-6">
+                        <h5>Модификации msOptionsPrice2</h5>
+                        <div class="functions_text">Редактируйте цены и создавайте новые модификации от компонент msOptionsPrice2</div>
+                        <div class="functions_img">
+                            <a href="images/functions/modification.png" title="Увеличение изображений" data-fancybox="functions">
+                                <img src="images/functions/modification.png" alt="">
+                            </a>
+
+                            <a href="images/functions/modification_2.png" title="Увеличение изображений" data-fancybox="functions">
+                                <img src="images/functions/modification_2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- Цены -->
+                    <div class="functions_block col-6">
+                        <h5>Цены</h5>
+                        <div class="functions_text">Увеличивайте цены на проценты или прибавляйте указанную сумму</div>
+                        <div class="functions_img">
+                            <a href="images/functions/price.png" title="Увеличение изображений" data-fancybox="functions">
+                                <img src="images/functions/price.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Тв-параметры -->
+                    <div class="functions_block col-6">
+                        <h5>ТВ-параметры (Дополнительные поля)</h5>
+                        <div class="functions_text">Добавить/Изменить/Удалить значение у выбранного тв-параметр, с указанием для каких шаблонов потребуется изменения</div>
+                        <div class="functions_img">
+                            <a href="images/functions/tv_param.png" title="" data-fancybox="functions">
+                                <img src="images/functions/tv_param.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Опции minishop -->
+                    <div class="functions_block col-6">
+                        <h5>Опции miniShop2</h5>
+                        <div class="functions_text">Редактирование опций miniShop2</div>
+                        <div class="functions_img">
+                            <a href="images/functions/options_minishop_2.png" title="" data-fancybox="functions">
+                                <img src="images/functions/options_minishop_2.png" alt="">
+                            </a>
+                            <a href="images/functions/options_minishop.png" title="" data-fancybox="functions">
+                                <img src="images/functions/options_minishop.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <h3 id="functions-filter">Фильтры</h2>
+                    </div>
+
+
+                    <!-- Показывать товары из дополнительных категорий -->
+                    <div class="functions_block col-6">
+                        <h5>Показывать товары из дополнительных категорий</h5>
+                        <div class="functions_text">При выборе категории с лева, вы смоежет найти товары которые попали в эту категориию через вкладку "Категории"</div>
+                        <div class="functions_img">
+                            <a href="images/functions/filters/dop_category.png" title="" data-fancybox="functions">
+                                <img src="images/functions/filters/dop_category.png" alt="">
+                            </a>
+                            <a href="images/functions/filters/dop_category_2.png" title="" data-fancybox="functions">
+                                <img src="images/functions/filters/dop_category_2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- Показывать товары из дополнительных категорий -->
+                    <div class="functions_block col-6">
+                        <h5>Показывать купленные товары</h5>
+                        <div class="functions_text">Получить список товаров которые когда то покупали можно с помощью фильтра "Показывать купленные товары". Статусы заказов указываются в настройках
+                            компонента
+                        </div>
+                        <div class="functions_img">
+                            <a href="images/functions/filters/buy_order.png" title="" data-fancybox="functions">
+                                <img src="images/functions/filters/buy_order.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- Показывать товары из дополнительных категорий -->
+                    <div class="functions_block col-6">
+                        <h5>Модификации</h5>
+                        <div class="functions_text">Найти все товары с модификациями msOptionsPrice2</div>
+                        <div class="functions_img">
+                            <a href="images/functions/filters/modification_1c.png" title="" data-fancybox="functions">
+                                <img src="images/functions/filters/modification_1c.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Показывать товары из дополнительных категорий -->
+                    <div class="functions_block col-6">
+                        <h5>Фильтрация по любому из полей в базе данных</h5>
+                        <div class="functions_text">С возможностью выбрать оператор для поиска</div>
+                        <div class="functions_img">
+                            <a href="images/functions/filters/field_filter.png" title="" data-fancybox="functions">
+                                <img src="images/functions/filters/field_filter.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--
+                      <ul>
+                                <li>Показывать товары из дополнительных категорий</li>
+                                <li>Показывать только избранные</li>
+                                <li>Показывать купленные товары - статусы купленных товаров настраиваются в настройках компонента</li>
+                                <li>Товары с модификациями - те что установлены через компонент msOptionsPrice2</li>
+                            </ul>
+                            -->
+                    <!-- Уникальные фильтры -->
+                    <!-- Установка дополнительных категорий -->
+                    <!-- Группы ресурсов - фильтрация по группе ресурсов и назначение новых групп -->
+                </div>
+            </div>
+
+
+            <!-- Купить -->
+            <div class="elements-block" id="buy">
+                <h2>Купить</h2>
+
+                <p>Цена <b>2490</b> руб.</p>
+
+                <p>Продажа и поддержка компонента осуществляется через маркетплейс <b>modstore.pro</b></p>
+
+                <a class="btn btn-success" target="_blank" href="https://modstore.pro/packages/ecommerce/mspre">Перейти на маркетплейс</a>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+</body>
+</html>
